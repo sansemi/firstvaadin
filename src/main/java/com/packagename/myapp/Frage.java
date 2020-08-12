@@ -10,8 +10,16 @@ public class Frage {
     public String bezeichnung;
     public String langText;
     public boolean antwort;
+    public boolean isRelevant = false;
     public String kommentar;
 
+    public boolean isRelevant() {
+        return isRelevant;
+    }
+
+    public void setRelevant(boolean relevant) {
+        isRelevant = relevant;
+    }
 
     public String getKommentar() {
         return kommentar;
@@ -35,6 +43,10 @@ public class Frage {
 
     public static String getNameKommentar() {
         return "kommentar";
+    }
+
+    public static String getNameIsRelevant() {
+        return "relevant";
     }
 
     public boolean getAntwort() {
@@ -61,9 +73,10 @@ public class Frage {
         this.langText = langText;
     }
 
-    Frage(String bezeichnung, String langText, boolean antwort){
+    Frage(String bezeichnung, String langText, String kommentar, boolean antwort){
         this.bezeichnung = bezeichnung;
         this.langText = langText;
+        this.kommentar = kommentar;
         this.antwort = antwort;
     }
 }

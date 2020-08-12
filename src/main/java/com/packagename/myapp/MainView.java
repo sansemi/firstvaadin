@@ -73,7 +73,6 @@ public class MainView extends VerticalLayout {
 //        buttonAnalyse.addClickShortcut(Key.ENTER);
 
         Button buttonAbbrechen = new Button("Abbrechen", new Icon(VaadinIcon.ARROW_BACKWARD));
-
         buttonAbbrechen.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
         buttonAbbrechen.addClickShortcut(Key.ABORT);
         myHorizontalLayout.setJustifyContentMode(JustifyContentMode.END);
@@ -94,13 +93,14 @@ public class MainView extends VerticalLayout {
 //        Collection<Frage> items = listDataProvider.getItems();
 
         Grid.Column colFragenBezeichnung = fragenTabelle.getColumnByKey(Frage.getNameBezeichnung());
-        Grid.Column colFragenText = fragenTabelle.getColumnByKey(Frage.getNameLangText());
-        Grid.Column colFragenJaNeinAntwort = fragenTabelle.getColumnByKey(Frage.getNameAntwort());
-        Grid.Column colKommentarZurFrage = fragenTabelle.getColumnByKey(Frage.getNameKommentar());
+        Grid.Column colFragenText = fragenTabelle.getColumnByKey(Frage.getNameLangText()).setAutoWidth(true);
+        Grid.Column colFragenJaNeinAntwort = fragenTabelle.getColumnByKey(Frage.getNameAntwort()).setAutoWidth(true);
+        Grid.Column colKommentarZurFrage = fragenTabelle.getColumnByKey(Frage.getNameKommentar()).setAutoWidth(true);
+        Grid.Column colIsRelevant = fragenTabelle.getColumnByKey(Frage.getNameIsRelevant());
 
         colFragenText.setHeader(columnName_Frage).setAutoWidth(true);
-
         fragenTabelle.removeColumn(colFragenBezeichnung);
+        fragenTabelle.removeColumn(colIsRelevant);
         fragenTabelle.setColumnOrder(colFragenText, colKommentarZurFrage, colFragenJaNeinAntwort);
 
         Binder<Frage> binder = new Binder<>(Frage.class);
