@@ -16,33 +16,13 @@ public class AnalyseView extends VerticalLayout {
 
         add();
 
-//        grid.addColumn(Frage::getKurzBezeichnung).setCaption("Bezeichnung");
-//        grid.addColumn(Frage::getLangBezeichnung).setCaption("Frage");
-
         /*Grid<Frage> grid = new Grid<>(Frage.class);
-        grid.setItems(fragenListe);
 
         Button button = new Button("Greet");
         button.addClickListener(e ->
                 button.getUI().ifPresent(ui ->
-                        ui.navigate("greeting"))
-        );
+                        ui.navigate("greeting")));
         add(button);
-        Kommentar 1 vom master
-        Fix 1 vom master
-        add(button);
-        schöner Text
-        mehr text vom develop
-        noch mehr text vom develop
-        mehr text vom master
-        noch mehr text vom master
-        mehr 2 text vom develop
-        weiter vom develop
-        text vom master
-        master
-        text vom develop
-        noch text vom develop
-develop
         */
 
     }
