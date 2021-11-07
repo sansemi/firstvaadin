@@ -14,10 +14,10 @@ public class AnalyseView extends VerticalLayout {
 
     public AnalyseView() {
 
+        add();
 
 //        grid.addColumn(Frage::getKurzBezeichnung).setCaption("Bezeichnung");
 //        grid.addColumn(Frage::getLangBezeichnung).setCaption("Frage");
-        add();
 
         /*Grid<Frage> grid = new Grid<>(Frage.class);
         grid.setItems(fragenListe);
@@ -30,12 +30,14 @@ public class AnalyseView extends VerticalLayout {
         add(button);
         Kommentar 1 vom master
         Fix 1 vom master
+        add(button);
+        schöner Text
         */
 
     }
 
     public String privet() {
-        String otvet = "Привет тебе!";
+        String otvet = "Hallo тебе!";
         new Span();
         return otvet;
     }
