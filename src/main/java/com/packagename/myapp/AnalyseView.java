@@ -38,6 +38,7 @@ public class AnalyseView extends VerticalLayout {
         noch mehr text vom master
         mehr 2 text vom develop
         weiter vom develop
+        text vom master
         */
 
     }
