@@ -32,6 +32,7 @@ public class AnalyseView extends VerticalLayout {
         Fix 1 vom master
         add(button);
         schöner Text
+        mehr text vom develop
         */
 
     }
