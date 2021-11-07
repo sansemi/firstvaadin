@@ -16,15 +16,6 @@ public class AnalyseView extends VerticalLayout {
 
         add();
 
-        /*Grid<Frage> grid = new Grid<>(Frage.class);
-
-        Button button = new Button("Greet");
-        button.addClickListener(e ->
-                button.getUI().ifPresent(ui ->
-                        ui.navigate("greeting")));
-        add(button);
-        */
-
     }
 
     public String privet() {
