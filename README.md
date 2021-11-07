@@ -71,7 +71,7 @@ Project follow the Maven's [standard directory layout structure](https://maven.a
 
 ## Notes
 
-If you run application from a command line, remember to prepend a `mvn` to the command. 
+If you run application from a command line, remember to prepend a `mvn` to the command.
 
 Neue Zeile
 
@@ -81,6 +81,8 @@ Zweite Zeile
 
 3. Zeile vom develop
 
-dritte Zeile vom master
+3. Zeile vom master
 
-vierte Zeile vom master
+4. Zeile vom master
+
+5. Zeile vom master
