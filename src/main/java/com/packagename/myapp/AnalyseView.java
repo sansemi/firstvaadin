@@ -27,7 +27,9 @@ public class AnalyseView extends VerticalLayout {
                 button.getUI().ifPresent(ui ->
                         ui.navigate("greeting"))
         );
-        add(button);*/
+        add(button);
+        Kommentar 1 vom master
+        */
 
     }
 
