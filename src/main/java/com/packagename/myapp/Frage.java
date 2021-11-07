@@ -7,6 +7,8 @@ import java.util.List;
 
 public class Frage {
 
+    public String title;
+    private String data;
     public String bezeichnung;
     public String langText;
     public boolean antwort;
