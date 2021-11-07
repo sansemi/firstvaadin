@@ -28,7 +28,7 @@ public class AnalyseView extends VerticalLayout {
     }
 
     public String privet() {
-        String otvet = "Hallo тебе!";
+        String otvet = "Hallo du!";
         new Span();
         return otvet;
     }
