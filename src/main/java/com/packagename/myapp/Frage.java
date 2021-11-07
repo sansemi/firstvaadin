@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Frage {
 
+    public String vorname;
     public String title;
     private String data;
     public String bezeichnung;
@@ -14,6 +15,7 @@ public class Frage {
     public boolean antwort;
     public boolean isRelevant = false;
     public String kommentar;
+    private String name;
 
     public boolean isRelevant() {
         return isRelevant;
