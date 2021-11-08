@@ -18,12 +18,14 @@ public class AnalyseView extends VerticalLayout {
                 button.getUI().ifPresent(ui ->
                         ui.navigate("greeting")));
         add(button);
+        //Hier mein hotfix
     }
 
     public String privet() {
         String  antwort = "Hallo lieber du!";
         String  antwort2 = "Hallo liebe sie!";
         String  antwort3 = "Hallo lieben wir!";
+        String  antwort4 = "Hallo Realese!";
         new Span();
         return antwort;
     }
