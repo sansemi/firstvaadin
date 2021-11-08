@@ -24,7 +24,7 @@ public class AnalyseView extends VerticalLayout {
     public String privet() {
         String  antwort = "Hallo lieber du!";
         String  antwort2 = "Hallo liebe sie!";
-
+        String  antwort3 = "Hallo lieben wir!";
         new Span();
         return antwort;
     }
