@@ -10,8 +10,10 @@ public class AnalyseView extends VerticalLayout {
 
     public AnalyseView() {
         add();
+        add();
 
         Button button = new Button("Greet");
+        Button button2 = new Button("Greeta");
         button.addClickListener(e ->
                 button.getUI().ifPresent(ui ->
                         ui.navigate("greeting")));
@@ -20,7 +22,10 @@ public class AnalyseView extends VerticalLayout {
     }
 
     public String privet() {
-        String  antwort = "Hallo du!";
+        String  antwort = "Hallo lieber du!";
+        String  antwort2 = "Hallo liebe sie!";
+        String  antwort3 = "Hallo lieben wir!";
+        String  antwort4 = "Hallo Realese!";
         new Span();
         return antwort;
     }
