@@ -10,8 +10,10 @@ public class AnalyseView extends VerticalLayout {
 
     public AnalyseView() {
         add();
+        add();
 
         Button button = new Button("Greet");
+        Button button2 = new Button("Greeta");
         button.addClickListener(e ->
                 button.getUI().ifPresent(ui ->
                         ui.navigate("greeting")));
