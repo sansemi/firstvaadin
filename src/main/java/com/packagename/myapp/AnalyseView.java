@@ -25,6 +25,7 @@ public class AnalyseView extends VerticalLayout {
         String  antwort = "Hallo lieber du!";
         String  antwort2 = "Hallo liebe sie!";
         String  antwort3 = "Hallo lieben wir!";
+        String  antwort4 = "Hallo Realese!";
         new Span();
         return antwort;
     }
