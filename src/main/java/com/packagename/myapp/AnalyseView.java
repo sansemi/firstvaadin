@@ -23,18 +23,7 @@ public class AnalyseView extends VerticalLayout {
 
     public String privet() {
         String  antwort = "Hallo lieber du!";
-        String  antwort2 = "Hallo liebe sie!";
-        String  antwort3 = "Hallo lieben wir!";
-        String  antwort4 = "Hallo Realese!";
-        String  antwort5= "Hallo Develop!";
-        String  antwort6= "Hallo Develop2!";
-        String  antwort7 = "Hallo Bugfix!";
-        String  antwort8= "Hallo Develop!";
-        String  antwort9 = "Hallo Bugfix!";
-        String  antwort10 = "Hallo Realese!";
-        String  antwort11 = "Hallo Russich!";
-        String  antwort12 = "Hallo Ukrainisch!";
-        String  antwort13 = "Hallo Katzisch!";
+
 
         new Span();
         return antwort;
