@@ -18,7 +18,7 @@ public class AnalyseView extends VerticalLayout {
                 button.getUI().ifPresent(ui ->
                         ui.navigate("greeting")));
         add(button);
-        //Hier mein hotfix
+        //Hier mein develop
     }
 
     public String privet() {
