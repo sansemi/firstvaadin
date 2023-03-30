@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 @Service
+
 public class FragenService implements Serializable {
 
     List<Frage> initFragenKatalog() {
