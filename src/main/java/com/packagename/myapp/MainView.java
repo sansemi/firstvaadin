@@ -88,7 +88,7 @@ public class MainView extends VerticalLayout {
         Checkbox antorten = new Checkbox();
         antorten.setValue(false);
         antorten.onEnabledStateChanged(true);
-        //TODA:
+        //TODO: 1
 
 //        ListDataProvider<Frage> listDataProvider = (ListDataProvider<Frage>) fragenTabelle.getDataProvider();
 //        Collection<Frage> items = listDataProvider.getItems();
