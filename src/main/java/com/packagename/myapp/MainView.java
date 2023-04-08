@@ -92,6 +92,7 @@ public class MainView extends VerticalLayout {
         //TODO:
         //TODO: 2
         //TODO: 3
+        //TODO: 4
 
 //        ListDataProvider<Frage> listDataProvider = (ListDataProvider<Frage>) fragenTabelle.getDataProvider();
 //        Collection<Frage> items = listDataProvider.getItems();
